@@ -2,7 +2,7 @@
 * text=auto
 
 # Custom for Dreamweaver
-*.csn   diff=astextplain
+*.csn   diff=xml
 
 # Custom for Visual Studio
 *.cs     diff=csharp
