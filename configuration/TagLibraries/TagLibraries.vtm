@@ -69,6 +69,7 @@
 		<tagref file="html/legend.vtm" name="legend" />
 		<tagref file="html/li.vtm" name="li" />
 		<tagref file="html/link.vtm" name="link" />
+		<tagref name="main" file="html/main.vtm"/>
 		<tagref file="html/map.vtm" name="map" />
 		<tagref file="html/mark.vtm" name="mark" />
 		<tagref file="html/marquee.vtm" name="marquee" />
