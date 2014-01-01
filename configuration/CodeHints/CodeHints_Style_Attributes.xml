@@ -1,0 +1,1194 @@
+@l.2267
+<menugroup MMString:name="css_codehints_1" id="CodeHints_Style_Attributes">
+  <description>
+  <MMString:loadString id="css_codehints_2" />
+  </description>
+  
+  <menu pattern="azimuth:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="behind" value="behind" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="center" value="center" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="center-left" value="center-left" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="center-right" value="center-right" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="far-left" value="far-left" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="far-right" value="far-right" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="left" value="left" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="left-side" value="left-side" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="leftwards" value="leftwards" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="right" value="right" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="right-side" value="right-side" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="rightwards" value="rightwards" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="background:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" description="background-attachment || background-color || background-image || background-position || background-repeat">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" description="background-color" icon="shared/mm/images/hintColor.gif" />
+    <menuitem MMString:label="code_hints/pick_url" value="mm_menu_item:browseForUrl" description="background-image" icon="shared/mm/images/hintLink.gif" />
+	<menuitem label="none" value="none" description="background-image" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="bottom" value="bottom" description="background-position" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="center" value="center" description="background-position" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="left" value="left" description="background-position" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="right" value="right" description="background-position" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="top" value="top" description="background-position" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="no-repeat" value="no-repeat" description="background-repeat" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="repeat" value="repeat" description="background-repeat" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="repeat-x" value="repeat-x" description="background-repeat" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="repeat-y" value="repeat-y" description="background-repeat" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="fixed" value="fixed" description="background-attachment" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="scroll" value="scroll" description="background-attachment" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="background-attachment:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="fixed" value="fixed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="local" value="local" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="scroll" value="scroll" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="background-color:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" icon="shared/mm/images/hintColor.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="transparent" value="transparent" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="background-image:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" type="url">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="background-position:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="bottom" value="bottom" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="center" value="center" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="left" value="left" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="right" value="right" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="top" value="top" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="background-repeat:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="no-repeat" value="no-repeat" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="repeat" value="repeat" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="repeat-x" value="repeat-x" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="repeat-y" value="repeat-y" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="round" value="round" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="space" value="space" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" description="border-width || border-style || border-color">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" icon="shared/mm/images/hintColor.gif" />
+	<menuitem label="medium" value="medium" description="border-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" description="border-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" description="border-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dashed" value="dashed" description="border-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" description="border-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" description="border-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" description="border-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" description="border-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" description="border-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" description="border-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" description="border-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" description="border-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" description="border-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-bottom:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" description="border-bottom-width || border-bottom-style || color">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" description="border-bottom-color" icon="shared/mm/images/hintColor.gif" />
+	<menuitem label="medium" value="medium" description="border-bottom-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" description="border-bottom-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" description="border-bottom-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dashed" value="dashed" description="border-bottom-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" description="border-bottom-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" description="border-bottom-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" description="border-bottom-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" description="border-bottom-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" description="border-bottom-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" description="border-bottom-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" description="border-bottom-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" description="border-bottom-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" description="border-bottom-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-bottom-color:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" icon="shared/mm/images/hintColor.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-bottom-style:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="dashed" value="dashed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>  
+  <menu pattern="border-bottom-width:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="medium" value="medium" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-collapse:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="collapse" value="collapse" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="separate" value="separate" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-color:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" icon="shared/mm/images/hintColor.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="transparent" value="transparent" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-left:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" description="border-left-width || border-left-style || color">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" description="border-left-color" icon="shared/mm/images/hintColor.gif" />
+	<menuitem label="medium" value="medium" description="border-left-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" description="border-left-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" description="border-left-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dashed" value="dashed" description="border-left-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" description="border-left-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" description="border-left-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" description="border-left-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" description="border-left-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" description="border-left-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" description="border-left-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" description="border-left-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" description="border-left-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" description="border-left-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>    
+  <menu pattern="border-left-color:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" icon="shared/mm/images/hintColor.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu> 
+  <menu pattern="border-left-style:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="dashed" value="dashed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu> 
+  <menu pattern="border-left-width:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="medium" value="medium" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-right:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" description="border-right-width || border-right-style || color">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" description="border-right-color" icon="shared/mm/images/hintColor.gif" />
+	<menuitem label="medium" value="medium" description="border-right-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" description="border-right-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" description="border-right-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dashed" value="dashed" description="border-right-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" description="border-right-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" description="border-right-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" description="border-right-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" description="border-right-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" description="border-right-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" description="border-right-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" description="border-right-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" description="border-right-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" description="border-right-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>  
+  <menu pattern="border-right-color:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" icon="shared/mm/images/hintColor.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-right-style:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="dashed" value="dashed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu> 
+  <menu pattern="border-right-width:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="medium" value="medium" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-spacing:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-style:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="dashed" value="dashed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-top:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" description="border-top-width || border-top-style || color">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" description="border-top-color" icon="shared/mm/images/hintColor.gif" />
+	<menuitem label="medium" value="medium" description="border-top-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" description="border-top-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" description="border-top-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dashed" value="dashed" description="border-top-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" description="border-top-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" description="border-top-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" description="border-top-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" description="border-top-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" description="border-top-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" description="border-top-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" description="border-top-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" description="border-top-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" description="border-top-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>  
+  <menu pattern="border-top-color:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" icon="shared/mm/images/hintColor.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-top-style:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="dashed" value="dashed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="border-top-width:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="medium" value="medium" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>  
+  <menu pattern="border-width:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="medium" value="medium" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="bottom:" additionaldismisschars=";:">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="caption-side:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="top" value="top" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="bottom" value="bottom" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="left" value="left" source="Mozilla" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="right" value="right" source="Mozilla" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="clear:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="both" value="both" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="left" value="left" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="right" value="right" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="clip:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="rect(auto, auto, auto, auto)" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="rect(top right bottom left)" value="rect(top right bottom left)" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="color:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" icon="shared/mm/images/hintColor.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="content:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="attr(x)" value="attr(x)" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="close-quote" value="close-quote" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="counter(name)" value="counter(name)" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="counter(name,style)" value="counter(name,style)" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="counters(name,string)" value="counters(name,string)" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="counters(name,string,style)" value="counters(name,string,style)" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="icon" value="icon" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="no-close-quote" value="no-close-quote" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="no-open-quote" value="no-open-quote" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="normal" value="normal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="open-quote" value="open-quote" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem MMString:label="code_hints/pick_url" value="mm_menu_item:browseForUrl" description="content" icon="shared/mm/images/hintLink.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="counter-increment:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="counter-reset:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="cue:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" type="url" allowmultiplevalues="true" description="cue-before || cue-after">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="cue-after:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" type="url">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="cue-before:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" type="url">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="cursor:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem MMString:label="code_hints/pick_url" value="mm_menu_item:browseForUrl" description="cursor" icon="shared/mm/images/hintLink.gif" />
+    <menuitem label="alias" value="alias" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="all-scroll" value="all-scroll" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="cell" value="cell" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="col-resize" value="col-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="context-menu" value="context-menu" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="copy" value="copy" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="crosshair" value="crosshair" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="default" value="default" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="e-resize" value="e-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ew-resize" value="ew-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="help" value="help" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="move" value="move" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="n-resize" value="n-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ne-resize" value="ne-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="nesw-resize" value="nesw-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="no-drop" value="no-drop" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="not-allowed" value="not-allowed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ns-resize" value="ns-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="nw-resize" value="nw-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="nwse-resize" value="nwse-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="pointer" value="pointer" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="progress" value="progress" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="row-resize" value="row-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="s-resize" value="s-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="se-resize" value="se-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="sw-resize" value="sw-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="text" value="text" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="vertical-text" value="vertical-text" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="wait" value="wait" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="w-resize" value="w-resize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="direction:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ltr" value="ltr" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="rtl" value="rtl" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="display:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="block" value="block" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="compact" value="compact" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inline" value="inline" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inline-block" value="inline-block" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inline-table" value="inline-table" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="list-item" value="list-item" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="marker" value="marker" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="run-in" value="run-in" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="table" value="table" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="table-caption" value="table-caption" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="table-cell" value="table-cell" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="table-column" value="table-column" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="table-column-group" value="table-column-group" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="table-footer-group" value="table-footer-group" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="table-header-group" value="table-header-group" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="table-row" value="table-row" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="table-row-group" value="table-row-group" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="elevation:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="above" value="above" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="below" value="below" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="higher" value="higher" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="level" value="level" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="lower" value="lower" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="empty-cells:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="hide" value="hide" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="show" value="show" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="float:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="left" value="left" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="right" value="right" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="font:" type="font" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" description="font-style || font-variant || font-weight || font-size || line-height || font-family">
+	<menuitem label="bold" value="bold" description="font-weight" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="bolder" value="bolder" description="font-weight" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="button" value="button" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="caption" value="caption" description="System Font" icon="shared/mm/images/hintFont.gif" />		
+	<menuitem label="checkbox" value="checkbox" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="checkbox-group" value="checkbox-group" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="combo-box" value="combo-box" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="desktop" value="desktop" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="dialog" value="dialog" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="document" value="document" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="field" value="field" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="hyperlink" value="hyperlink" description="System Font" icon="shared/mm/images/hintFont.gif" />
+    <menuitem label="icon" value="icon" description="System Font" icon="shared/mm/images/hintFont.gif" />
+    <menuitem label="inherit" value="inherit" description="font-weight" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="italic" value="italic" description="font-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="large" value="large" description="font-size" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="larger" value="larger" description="font-size" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="lighter" value="lighter" description="font-weight" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="list-menu" value="list-menu" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="medium" value="medium" description="font-size" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="menu" value="menu" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="menu-item" value="menu-item" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="menubar" value="menubar" description="System Font" icon="shared/mm/images/hintFont.gif" />
+    <menuitem label="message-box" value="message-box" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="normal" value="normal" description="font-variant || font-weight" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="oblique" value="oblique" description="font-style" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="outline-tree" value="outline-tree" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="password" value="password" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="pop-up-menu" value="pop-up-menu" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="pull-down-menu" value="pull-down-menu" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="push-button" value="push-button" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="radio-button" value="radio-button" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="radio-group" value="radio-group" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="range" value="range" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="signature" value="signature" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="small" value="small" description="font-size" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="small-caps" value="small-caps" description="font-variant" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="small-caption" value="small-caption" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="smaller" value="smaller" description="font-size" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="status-bar" value="status-bar" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="tab" value="tab" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="tooltip" value="tooltip" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="window" value="window" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="workspace" value="workspace" description="System Font" icon="shared/mm/images/hintFont.gif" />
+	<menuitem label="x-large" value="x-large" description="font-size" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="x-small" value="x-small" description="font-size" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="xx-large" value="xx-large" description="font-size" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="xx-small" value="xx-small" description="font-size" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="font-family:" type="font" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="font-size:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+	<menuitem label="9px" value="9px" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="10px" value="10px" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="12px" value="12px" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="14px" value="14px" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="16px" value="16px" icon="shared/mm/images/hintMisc.gif" />	
+	<menuitem label="18px" value="18px" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="24px" value="24px" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="36px" value="36px" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="large" value="large" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="larger" value="larger" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="medium" value="medium" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="small" value="small" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="smaller" value="smaller" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="x-large" value="x-large" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="x-small" value="x-small" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="xx-large" value="xx-large" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="xx-small" value="xx-small" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="font-size-adjust:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="font-stretch:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="condensed" value="condensed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="expanded" value="expanded" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="extra-condensed" value="extra-condensed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="extra-expanded" value="extra-expanded" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="narrower" value="narrower" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="normal" value="normal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="semi-condensed" value="semi-condensed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="semi-expanded" value="semi-expanded" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ultra-condensed" value="ultra-condensed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ultra-expanded" value="ultra-expanded" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="wider" value="wider" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="font-style:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="italic" value="italic" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="normal" value="normal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="oblique" value="oblique" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="font-variant:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="normal" value="normal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="small-caps" value="small-caps" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="font-weight:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="100" value="100" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="200" value="200" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="300" value="300" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="400" value="400" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="500" value="500" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="600" value="600" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="700" value="700" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="800" value="800" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="900" value="900" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="bold" value="bold" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="bolder" value="bolder" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="lighter" value="lighter" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="normal" value="normal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="height:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="left:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="letter-spacing:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="normal" value="normal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="line-height:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="normal" value="normal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="list-style:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css"  allowmultiplevalues="true" description="list-style-image || list-style-position || list-style-type">
+   	<menuitem MMString:label="code_hints/pick_url" value="mm_menu_item:browseForUrl" description="list-style-image" icon="shared/mm/images/hintLink.gif" />
+	<menuitem label="inside" value="inside" description="list-style-position" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outside" value="outside" description="list-style-position" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="armenian" value="armenian" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="circle" value="circle" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="cjk-ideographic" value="cjk-ideographic" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="decimal" value="decimal" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="decimal-leading-zero" value="decimal-leading-zero" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="disc" value="disc" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="georgian" value="georgian" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hebrew" value="hebrew" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hiragana" value="hiragana" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hiragana-iroha" value="hiragana-iroha" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="katakana" value="katakana" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="katakana-iroha" value="katakana-iroha" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="lower-alpha" value="lower-alpha" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="lower-greek" value="lower-greek" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="lower-latin" value="lower-latin" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />    
+    <menuitem label="lower-roman" value="lower-roman" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="square" value="square" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="upper-alpha" value="upper-alpha" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="upper-latin" value="upper-latin" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="upper-roman" value="upper-roman" description="list-style-type" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="list-style-image:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" type="url">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="list-style-position:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inside" value="inside" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outside" value="outside" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="list-style-type:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="armenian" value="armenian" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="circle" value="circle" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="cjk-ideographic" value="cjk-ideographic" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="decimal" value="decimal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="decimal-leading-zero" value="decimal-leading-zero" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="disc" value="disc" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="georgian" value="georgian" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hebrew" value="hebrew" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hiragana" value="hiragana" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hiragana-iroha" value="hiragana-iroha" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="katakana" value="katakana" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="katakana-iroha" value="katakana-iroha" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="lower-alpha" value="lower-alpha" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="lower-greek" value="lower-greek" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="lower-latin" value="lower-latin" icon="shared/mm/images/hintMisc.gif" />    
+    <menuitem label="lower-roman" value="lower-roman" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="square" value="square" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="upper-alpha" value="upper-alpha" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="upper-latin" value="upper-latin" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="upper-roman" value="upper-roman" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="margin:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" description="margin-top || margin-right || margin-bottom || margin-left">
+	<menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="margin-bottom:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+	<menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="margin-left:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="margin-right:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="margin-top:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>  
+  <menu pattern="marker-offset:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="marks:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="crop" value="crop" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="cross" value="cross" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="max-height:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="max-width:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="min-height:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="min-width:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="orphans:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="outline:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" description="outline-color || outline-style || outline-width">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" description="outline-color" icon="shared/mm/images/hintColor.gif" />
+    <menuitem label="dashed" value="dashed" description="outline-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" description="outline-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" description="outline-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" description="outline-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" description="outline-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" description="outline-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="invert" value="invert" description="outline-color" icon="shared/mm/images/hintColor.gif" />
+    <menuitem label="none" value="none" description="outline-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" description="outline-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" description="outline-style" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" description="outline-style" icon="shared/mm/images/hintMisc.gif" />
+	<menuitem label="medium" value="medium" description="outline-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" description="outline-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" description="outline-width" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="outline-color:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" icon="shared/mm/images/hintColor.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="invert" value="invert" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="outline-style:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dashed" value="dashed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="dotted" value="dotted" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="double" value="double" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="groove" value="groove" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inset" value="inset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outset" value="outset" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="ridge" value="ridge" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="solid" value="solid" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="outline-width:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+  	<menuitem label="medium" value="medium" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thin" value="thin" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="thick" value="thick" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="overflow:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="scroll" value="scroll" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="visible" value="visible" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="padding:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true" description="padding-top || padding-right || padding-bottom || padding-left">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="padding-bottom:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="padding-left:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="padding-right:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="padding-top:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="page:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />  
+    <menuitem label="'identifier'" value="'identifier'" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="page-break-after:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="always" value="always" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="avoid" value="avoid" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="left" value="left" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="right" value="right" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="page-break-before:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="always" value="always" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="avoid" value="avoid" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="left" value="left" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="right" value="right" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu> 
+  <menu pattern="page-break-inside:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="avoid" value="avoid" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="pause:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="pause-after:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="pause-before:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="pitch:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="high" value="high" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="low" value="low" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="medium" value="medium" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="x-high" value="x-high" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="x-low" value="x-low" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="pitch-range:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="play-during:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="mix" value="mix" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="repeat" value="repeat" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="position:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="absolute" value="absolute" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="fixed" value="fixed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="relative" value="relative" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="static" value="static" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="quotes:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="richness:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="right:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="size:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="landscape" value="landscape" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="portrait" value="portrait" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="speak:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="normal" value="normal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="spell-out" value="spell-out" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="speak-header:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="always" value="always" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="once" value="once" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="speak-numeral:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="continuous" value="continuous" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="digits" value="digits" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="speak-punctuation:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="code" value="code" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="speech-rate:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="fast" value="fast" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="faster" value="faster" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="medium" value="medium" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="slow" value="slow" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="slower" value="slower" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="x-fast" value="x-fast" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="x-slow" value="x-slow" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="stress:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="table-layout:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="fixed" value="fixed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="text-align:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="center" value="center" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="end" value="end" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="justify" value="justify" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="left" value="left" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="right" value="right" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="start" value="start" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="text-decoration:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="blink" value="blink" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="line-through" value="line-through" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="overline" value="overline" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="underline" value="underline" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="text-indent:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="hanging" value="hanging" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="text-shadow:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem MMString:label="code_hints/pick_color" value="mm_menu_item:colorPicker" icon="shared/mm/images/hintColor.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="text-transform:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="capitalize" value="capitalize" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="lowercase" value="lowercase" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="none" value="none" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="uppercase" value="uppercase" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="top:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="unicode-bidi:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="bidi-override" value="bidi-override" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="embed" value="embed" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="normal" value="normal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="vertical-align:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="baseline" value="baseline" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="bottom" value="bottom" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="central" value="central" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="middle" value="middle" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="sub" value="sub" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="super" value="super" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="text-bottom" value="text-bottom" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="text-top" value="text-top" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="top" value="top" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="use-script" value="use-script" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="visibility:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="collapse" value="collapse" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="hidden" value="hidden" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="visible" value="visible" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="voice-family:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="volume:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="loud" value="loud" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="medium" value="medium" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="silent" value="silent" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="soft" value="soft" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="x-loud" value="x-loud" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="x-soft" value="x-soft" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="white-space:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="normal" value="normal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="nowrap" value="nowrap" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="pre" value="pre" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="pre-line" value="pre-line" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="pre-wrap" value="pre-wrap" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="widows:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="width:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="word-spacing:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="normal" value="normal" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="z-index:" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" allowmultiplevalues="true">
+    <menuitem label="auto" value="auto" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="inherit" value="inherit" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="!important" value="!important" icon="shared/mm/images/hintFlag.gif" />
+  </menu>
+  <menu pattern="; /;	/&#10;/{/style=&quot;" forcedPattern=";" patternseparator="/" additionaldismisschars="{};:" allowwhitespaceprefix="true" displayrestriction="css">
+    <menuitem label="azimuth" value="azimuth:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="background" value="background:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="background-attachment" value="background-attachment:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="background-color" value="background-color:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="background-image" value="background-image:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="background-position" value="background-position:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="background-repeat" value="background-repeat:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border" value="border:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-bottom" value="border-bottom:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-bottom-color" value="border-bottom-color:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-bottom-style" value="border-bottom-style:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-bottom-width" value="border-bottom-width:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-collapse" value="border-collapse:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-color" value="border-color:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-left" value="border-left:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-left-color" value="border-left-color:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-left-style" value="border-left-style:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-left-width" value="border-left-width:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-right" value="border-right:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-right-color" value="border-right-color:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-right-style" value="border-right-style:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-right-width" value="border-right-width:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-spacing" value="border-spacing:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-style" value="border-style:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-top" value="border-top:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-top-color" value="border-top-color:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-top-style" value="border-top-style:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-top-width" value="border-top-width:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="border-width" value="border-width:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="bottom" value="bottom:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="caption-side" value="caption-side:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="clear" value="clear:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="clip" value="clip:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="color" value="color:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="content" value="content:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="counter-increment" value="counter-increment:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="counter-reset" value="counter-reset:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="cue" value="cue:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="cue-after" value="cue-after:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="cue-before" value="cue-before:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="cursor" value="cursor:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="direction" value="direction:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="display" value="display:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="elevation" value="elevation:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="empty-cells" value="empty-cells:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="float" value="float:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="font" value="font:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="font-family" value="font-family:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="font-size" value="font-size:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="font-size-adjust" value="font-size-adjust:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="font-stretch" value="font-stretch:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="font-style" value="font-style:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="font-variant" value="font-variant:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="font-weight" value="font-weight:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="height" value="height:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="left" value="left:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="letter-spacing" value="letter-spacing:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="line-height" value="line-height:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="list-style" value="list-style:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="list-style-image" value="list-style-image:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="list-style-position" value="list-style-position:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="list-style-type" value="list-style-type:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="margin" value="margin:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="margin-bottom" value="margin-bottom:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="margin-left" value="margin-left:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="margin-right" value="margin-right:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="margin-top" value="margin-top:" icon="shared/mm/images/hintMisc.gif" />  
+    <menuitem label="marker-offset" value="marker-offset:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="marks" value="marks:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="max-height" value="max-height:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="max-width" value="max-width:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="min-height" value="min-height:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="min-width" value="min-width:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="orphans" value="orphans:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outline" value="outline:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outline-color" value="outline-color:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outline-style" value="outline-style:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="outline-width" value="outline-width:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="overflow" value="overflow:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="padding" value="padding:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="padding-bottom" value="padding-bottom:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="padding-left" value="padding-left:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="padding-right" value="padding-right:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="padding-top" value="padding-top:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="page" value="page:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="page-break-after" value="page-break-after:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="page-break-before" value="page-break-before:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="page-break-inside" value="page-break-inside:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="pause" value="pause:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="pause-after" value="pause-after:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="pause-before" value="pause-before:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="pitch" value="pitch:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="pitch-range" value="pitch-range:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="play-during" value="play-during:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="position" value="position:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="quotes" value="quotes:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="richness" value="richness:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="right" value="right:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="size" value="size:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="speak" value="speak:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="speak-header" value="speak-header:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="speak-numeral" value="speak-numeral:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="speak-punctuation" value="speak-punctuation:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="speech-rate" value="speech-rate:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="stress" value="stress:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="table-layout" value="table-layout:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="text-align" value="text-align:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="text-decoration" value="text-decoration:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="text-indent" value="text-indent:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="text-shadow" value="text-shadow:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="text-transform" value="text-transform:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="top" value="top:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="unicode-bidi" value="unicode-bidi:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="vertical-align" value="vertical-align:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="visibility" value="visibility:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="voice-family" value="voice-family:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="volume" value="volume:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="white-space" value="white-space:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="widows" value="widows:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="width" value="width:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="word-spacing" value="word-spacing:" icon="shared/mm/images/hintMisc.gif" />
+    <menuitem label="z-index" value="z-index:" icon="shared/mm/images/hintMisc.gif" />
+  </menu>
+  
+   <!-- CSS color property inside compound CSS property (note displayrestriction is css and search pattern is #) -->
+   <menu pattern="#" additionaldismisschars=";:" allowwhitespaceprefix="true" displayrestriction="css" type="color">
+   </menu>
+  <menu pattern="rgb/rgb(/rgba/rgba(/hsl/hsl(/hsla/hsla(" additionaldismisschars=";:" patternseparator="/" allowwhitespaceprefix="true" displayrestriction="css" type="color">
+  </menu>
+  <menu pattern="mm_font_list" type="font" allowwhitespaceprefix="true" displayrestriction="css">
+   </menu>
+   <menu pattern="mm_color_picker" type="color" allowwhitespaceprefix="true" displayrestriction="css">
+   </menu>
+   <menu pattern="mm_url_browser" type="url" allowwhitespaceprefix="true" displayrestriction="css">
+   </menu>
+   	  
+</menugroup>
