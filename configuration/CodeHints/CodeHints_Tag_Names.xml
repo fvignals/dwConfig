@@ -1,0 +1,8 @@
+
+
+<menugroup MMString:name="codehints_0" enabled="true" id="CodeHints_Tag_Names">
+  <description>
+  <MMString:loadString id="codehints_1" />
+  </description>
+  <!-- The menu is generated from Configuration/TagLibraries -->
+</menugroup>
