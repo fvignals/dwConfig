@@ -4,12 +4,15 @@ dwConfig
 Dreamweaver customizing
 
 ## To do
-- html5 ```<main>``` 
-- New project : php multilingual documentation.
+- [ ] .har extension (HTTP archive)
+- [x]html5 ```<main>``` 
+- [ ]php doc
+- [ ]check php classes, functions
 
 ## Changelog
 
 ### Version 13.2 - 0.1
+-
 - Tag librairies:
 - main.vtm new
 * 
