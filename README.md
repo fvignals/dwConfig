@@ -5,9 +5,9 @@ Dreamweaver customizing
 
 ## To do
 - [ ] .har extension (HTTP archive)
-- [x]html5 ```<main>``` 
-- [ ]php doc
-- [ ]check php classes, functions
+- [x] html5 ```<main>``` @3ef6fa74ed4c27106ed0dce104bdb5d390ae1d55
+- [ ] php doc
+- [ ] check php classes, functions
 
 ## Changelog
 
