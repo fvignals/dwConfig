@@ -15,5 +15,6 @@ Dreamweaver customizing
 -
 - Tag librairies:
 - main.vtm new : @3ef6fa7
+- html5 doctype in uppercase
 * 
 
