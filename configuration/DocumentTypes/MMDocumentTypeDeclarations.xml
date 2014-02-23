@@ -49,7 +49,7 @@
       <MMString:loadString id="mmdocumenttypedeclarations/mm_html_5" />
     </title>
     <doctypedecl>
-      <![CDATA[<!doctype html>]]>
+      <![CDATA[<!DOCTYPE html>]]>
     </doctypedecl>
     <rootelement>
       <![CDATA[<html></html>]]>
