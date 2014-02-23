@@ -122,34 +122,6 @@
 		<dtdcontext>xhtml_frameset</dtdcontext>
 	</documenttypedeclaration>
 	
-	<documenttypedeclaration id="mm_jsp_tag_library_11">
-		<title>
-			<MMString:loadString id="mmdocumenttypedeclarations/mm_jsp_tag_library_11" />
-		</title>
-		<doctypedecl>
-			<![CDATA[<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">]]>
-		</doctypedecl>
-		<rootelement>
-			<![CDATA[<taglib></taglib>]]>
-		</rootelement>
-		<dtdcontext>xml</dtdcontext>
-		<dtdcontext>jsp_tag_library</dtdcontext>
-	</documenttypedeclaration>
-	
-	<documenttypedeclaration id="mm_wml_13">
-		<title>
-			<MMString:loadString id="mmdocumenttypedeclarations/mm_wml_13" />
-		</title>
-		<doctypedecl>
-			<![CDATA[<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN" "http://www.wapforum.org/DTD/wml13.dtd">]]>
-		</doctypedecl>
-		<rootelement>
-			<![CDATA[<wml></wml>]]>
-		</rootelement>
-		<dtdcontext>xml</dtdcontext>
-		<dtdcontext>wml</dtdcontext>
-	</documenttypedeclaration>
-	
 	<documenttypedeclaration id="mm_xhtml_mobile_1">
 		<title>
 			<MMString:loadString id="mmdocumenttypedeclarations/mm_xhtml_mobile_1" />
